@@ -1,10 +1,10 @@
 html {
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
-  width: fit-content;
+  width: 100vw;
 }
 body {
-  margin: 0;
+  margin-top: 15px;
   background: #000;
   color: #fafafa;
   font-size: 1.5em;
@@ -241,7 +241,8 @@ a {
     width: 85%;
   }
   .btn-cont {
-    margin: 3.2em 0.2em 0.2em 1em;
+    margin: 3.2em 0 1em;
+    width: 100%;
   }
   .btn:hover {
     border: 1px solid white;
@@ -249,7 +250,7 @@ a {
 
   .btn {
     border: 1px solid white;
-    padding: 0.8em;
+    padding: 0.6em;
   }
   .line-1,
   .line-2,
@@ -286,11 +287,12 @@ a {
     padding: 0;
   }
   .btn-cont {
-    margin: 3.2em 0.2em 0.2em 1em;
+    margin: 3.2em 0 1em;
+    width: 100%;
   }
   .btn {
     border: 1px solid white;
-    padding: 0.8em;
+    padding: 0.6em;
   }
   .line-1,
   .line-2,
